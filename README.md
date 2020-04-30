@@ -12,6 +12,8 @@ ___
   3. SCELECTON.CSS
   4. Bootstrap
 + JS
+  1. Vanilla.js
+  2. JQuery
 
 ___
 
