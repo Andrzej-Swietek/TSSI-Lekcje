@@ -79,7 +79,127 @@ color: #beebff;
   padding-bottom: 5rem;
 }  
 
+.section-c .section-description{
+  margin-bottom: 4rem;
+}  
 
+
+
+
+.language {
+  font-size: 5rem;
+  height: 30vh;
+  margin-top: 3rem;
+}
+
+.html{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(206,86,53);
+  color: white;
+}
+
+.css{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(50,101,227);
+  color: white;
+}
+
+.js{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(237,216,79);
+  color: white;
+}
+
+.scss{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(192,110,153);
+  color: white;
+}
+
+.react{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(124,210,239);
+  color: white;
+}
+
+.angular{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(198,42,55);
+  color: white;
+}
+
+.nodejs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(80,133,68);
+  color: white;
+}
+
+.php{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(116,121,170);
+  color: white;
+}
+
+.python{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(66, 107, 149);
+  color: white;
+}
+
+.db{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(90, 147, 77);
+  color: white;
+}
+
+.java{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(228, 150, 60);
+  color: white;
+}
+
+.arduino{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: solid 1.5rem rgb(65, 149, 153);
+  color: white;
+}
+
+.raspberry{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(168, 41, 67);
+  color: white;
+}
+
+svg {
+  fill: #fff;
+}
 
 .main-pic {
   font-weight: 900;
@@ -93,9 +213,30 @@ color: #beebff;
 
 
 
+@media(min-width: 1000px) {
+  .showcase-heading {
+    font-size: 3rem;
+    padding-top: 11rem;
+  }
+}
 
+#robotics-btn,
+#backend-btn,
+#frontend-btn{
+  cursor: pointer;
+  transition: 0.5s;
+}
 
-
+#robotics-btn:hover,
+#backend-btn:hover,
+#frontend-btn:hover{
+  color: #00a9cd;
+}
+#robotics-sec,
+#backend-sec,
+#frontend-sec{
+  display: none;
+}
 
 
 /* pre,  */
@@ -388,6 +529,72 @@ footer{
     .accordion {
       width: 100%;
       min-width: 320px;
+    }
+  }
+  
+
+
+
+
+
+
+
+  /* ----------------------------- NAVBAR ----------------------------- */
+  .navBar{
+    background-color: #009cde; 
+    overflow: hidden;
+  }
+  
+  /*Floats each item to the left with padding of 14 & 16 px.
+  Removes the underline with text decoration = none.*/
+  .navBar a{
+    float: left;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Tahoma;
+  }
+  
+  /*Background color change during hover state*/
+  .navBar a:hover{
+    background-color: white;
+    color: #009cde;
+  }
+  
+  /*Hides the menu Icon which will show when the nav needs to be responsive*/
+  .navBar .icon{
+    display: none;
+  }
+  
+  /*Set your custom screen width here replacing 700*/
+  @media (max-width: 700px){
+  /*Ignores the first link (which is Home) in the div and       applies 'display = none' to everything else.   Basically hiding everything but Home*/
+    .navBar a:not(:first-child){
+      display: none;
+    }
+  /*Brings the menu icon into view and floats it to the right*/
+    .navBar a.icon{
+      display: block; 
+      float: right;
+    }
+    
+  /*The navBar class will be changed to 'navBar responsive' using JS. This chunk of CSS makes the menu icon stay where it is by making the position absolute within it's parent 'right top corner'. Without this, the icon will get kicked around when the items are collapsed and expanded*/
+    .navBar.responsive {
+      position: relative;
+    }
+    .navBar.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+  /*Removes the originally set float and brings them to view*/
+    .navBar.responsive a {
+      float: none;
+      display: block;
+      /* text-align: left; */
+      text-align: center;
     }
   }
   

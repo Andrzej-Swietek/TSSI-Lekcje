@@ -33,11 +33,22 @@
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png" />
+
+
+  <script src="js/hamburger.js"></script>
+  
 </head>
 
 <body>
   <div id="progressbar"></div>
-
+  <div class="navBar" id="mainNavBar">
+    <a href="#home">Home</a>
+    <a href="#service">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+    <a href="javascript:void(0);" class="icon" onClick="openDrawerMenu()">&#9776;</a>
+    <!--&#9776; is the code for the 3 line menu button-->
+  </div>
   <section class="section showcase">
     <div class="container">
       <div class="row">
@@ -59,19 +70,19 @@
   <section class="section section-a">
     <div class="container">
       <div class="row">
-        <div class="one-third column">
+        <div id="frontend-btn" class="one-third column">
           <h5>
             <i class="fab fa-html5"></i>
           </h5>
           <p> FRONTEND </p>
         </div>
-        <div class="one-third column">
+        <div id="backend-btn" class="one-third column">
           <h5>
             <i class="fab fa-node-js"></i>
           </h5>
           <p> BACKEND </p>
         </div>
-        <div class="one-third column">
+        <div id="robotics-btn" class="one-third column">
           <h5>
             <i class="fas fa-robot"></i>
           </h5>
@@ -80,6 +91,86 @@
       </div>
     </div>
   </section>
+
+
+  <!-- SECTION D -->
+  <section id="frontend-sec" class="section section-d">
+    <div class="container">
+      <div class="row">
+          <h5>The Frontend technologies I use</h5>
+      </div>
+      <div class="row">
+        <div class="language html one-half column"><i class="fab fa-html5"></i></div>
+        <div class="language css one-half column"><i class="fab fa-css3"></i></div>
+      </div>
+      <div class="row">
+        <div class="language js one-half column"><i class="fab fa-js"></i></div>
+        <div class="language scss one-half column"><i class="fab fa-sass"></i></div>
+      </div>
+      <div class="row">
+        <div class="language react one-half column"><i class="fab fa-react"></i></div>
+        <div class="language angular one-half column"><i class="fab fa-angular"></i></div>
+      </div>
+    </div>
+  </section>
+
+    <!-- SECTION E -->
+    <section id="backend-sec" class="section section-d">
+      <div class="container">
+        <div class="row">
+            <h5>The Backend technologies I use</h5>
+        </div>
+        <div class="row">
+          <div class="language nodejs one-half column"> <i class="fab fa-node-js"></i></div>
+          <div class="language php one-half column"><i class="fab fa-php"></i></div>
+        </div>
+        <div class="row">
+          <div class="language python twelve column">
+            <i class="fab fa-python"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="language db twelve column">
+            <i class="fas fa-database"></i>
+          </div>
+        </div>
+        
+
+      </div>
+    </section>
+
+
+        <!-- SECTION F -->
+        <section id="robotics-sec" class="section section-d">
+          <div class="container">
+            <div class="row">
+                <h5>The Robotics technologies I use</h5>
+            </div>
+            <div class="row">
+              <div class="language python twelve column">
+                <img width="20%" src="images/ros.svg" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="language java twelve column">
+                <i class="fab fa-java"></i>
+              </div>
+            </div>
+            <div class="row">
+              <div class="language arduino twelve column">
+                <img width="20%" src="images/arduino.svg" alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="language raspberry twelve column">
+                <i class="fab fa-raspberry-pi"></i>
+              </div>
+            </div>
+
+    
+          </div>
+        </section>
+
 
   <!-- SECTION B -->
   <section class="section section-b">
@@ -99,7 +190,7 @@
     <section class="section section-c">
       <div class="container">
         
-        <h3 class="section-heading">AI</h3>
+        <h3 class="section-heading"><strong>AI</strong></h3>
         <p class="section-description">
           My recent project involve major modlus using Marshine Learning technologies such us Tensor Flow.
           Project A.T.H.E.N.A combines all together my skills from all kinds of categories from electronics through High level Frontend Dashboard and Control Mobile App.
@@ -237,6 +328,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
   <script src="/js/scrollbar.js"></script>
+  <script src="js/languages-toggle.js"></script>
 
   <!-- End Document
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
