@@ -2,195 +2,241 @@
 <html lang="en">
 
 <head>
-
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
   <title>Portfolio</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
-
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet" />
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://kit.fontawesome.com/db2b358edb.js" crossorigin="anonymous"></script>
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/normalize.css" />
+  <link rel="stylesheet" href="css/skeleton.css" />
 
-
-  <link rel="stylesheet" href="css/base.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="css/skeleton.css" />
+  <link rel="stylesheet" href="css/layout.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon.png">
-
+  <link rel="icon" type="image/png" href="images/favicon.png" />
 </head>
 
 <body>
   <div id="progressbar"></div>
-  <header class="header">
-    <div class="logo">
-      <h1 class="u-full-width">Portfolio</h1>
-      
+
+  <section class="section showcase">
+    <div class="container">
+      <div class="row">
+        <div class="one-half column">
+          <h4 class="showcase-heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, deleniti maiores iusto magni optio minus corrupti, dolores alias aspernatur quibusdam laboriosam illum? Possimus quam unde a, natus id alias aliquid!</h4>
+          <a href="#" class="button button-primary">
+            <i class="fa fa-download"></i>
+            Contact Me
+          </a>
+        </div>
+        <div class="one-half column">
+          <img src="images/mockup3.png" class="showcase-img" alt="main picture">
+        </div>
+      </div>
     </div>
-  </header>
+  </section>
 
-  <form class="container clearfix">
+  <!-- SECTION A -->
+  <section class="section section-a">
+    <div class="container">
+      <div class="row">
+        <div class="one-third column">
+          <h5>
+            <i class="fab fa-html5"></i>
+          </h5>
+          <p> FRONTEND </p>
+        </div>
+        <div class="one-third column">
+          <h5>
+            <i class="fab fa-node-js"></i>
+          </h5>
+          <p> BACKEND </p>
+        </div>
+        <div class="one-third column">
+          <h5>
+            <i class="fas fa-robot"></i>
+          </h5>
+          <p>ROBOTICS</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <input class="nav-menu" id="all" type="radio" name="filter" checked="checked" />
-    <label for="all">Wszystkie</label>
+  <!-- SECTION B -->
+  <section class="section section-b">
+    <div class="container">
+      
+      <h3 class="section-heading">Reliable Work</h3>
+      <p class="section-description">Have a look on my work. I'm alsways using the most optimal and the best sotiution for each problem.</p>
+      <a href="https://github.com/AndrzejSwietek2001" class="button button-primary">
+        <i class="fa fa-file"></i>
+        See Code on Github
+      </a>
 
-    <input class="nav-menu" id="illustrations" type="radio" name="filter" />
-    <label for="illustrations">Ilustracje</label>
 
-    <input class="nav-menu" id="posters" type="radio" name="filter" />
-    <label class="nav-menu" for="posters">Plakaty</label>
+    </div>
+  </section>  
+    <!-- SECTION C -->
+    <section class="section section-c">
+      <div class="container">
+        
+        <h3 class="section-heading">AI</h3>
+        <p class="section-description">
+          My recent project involve major modlus using Marshine Learning technologies such us Tensor Flow.
+          Project A.T.H.E.N.A combines all together my skills from all kinds of categories from electronics through High level Frontend Dashboard and Control Mobile App.
+        </p>
 
-    <input class="nav-menu" id="typography" type="radio" name="filter" />
-    <label for="typography">Typografia</label>
-    
-    <input class="nav-menu" id="packaging" type="radio" name="filter" />
-    <label for="packaging">Opakowania</label>
-
-    <section class="portfolio">
-      <figure class="four columns all poster" data category="ilustracje">
-        <img src="images/image-1.jpg" alt="To jest pierwsza miniatura portfolio.">
-        <figcaption>
-          <h4>Lorem Ipsum</h4>
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-            industry's standard dummy text ever since the 1500s</p>
-        </figcaption>
-      </figure>
-
-  </form>
-
-<div class="u-full-width">
-
-  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi quidem aliquam consectetur sequi non dignissimos minus facere qui voluptas doloribus odit ut pariatur distinctio at, consequuntur molestiae quia rerum provident!
-  Mollitia harum, nam ea alias aliquid itaque earum consectetur. Vel fugiat dolorem numquam laborum natus consectetur, sapiente exercitationem libero illum blanditiis beatae delectus hic, accusamus doloremque, aperiam quisquam quos dolore.
-  Quod eius inventore, sint labore ducimus ipsum consequuntur quidem error ipsam velit cum excepturi iure eligendi. Recusandae corporis rem, alias eaque officiis possimus ipsam, minima enim repellendus sint vitae odit?
-  A ipsam velit neque officiis nihil atque dicta, in magnam aliquam doloribus quisquam nemo autem consequatur et, temporibus eos voluptas sit ea quaerat. Consequuntur eius voluptates porro repellendus, officiis a?
-  Consectetur, laudantium aliquam. Reiciendis totam pariatur qui laborum recusandae consequuntur provident minima cupiditate eos corporis similique explicabo reprehenderit aliquid, dolores est! Facilis at possimus sit blanditiis distinctio accusantium. Temporibus, suscipit?
-</div>
-
-<button class="u-full-width"></button>
-
-<pre>
-  <code>
-    <span class="kolorek-kodu-3">// Scroll Efect using JQuery</span>
-    <span class="kolorek-kodu-1">$(window)</span>.scroll(<span class="kolorek-kodu-2">function() {</span>
-      <span class="kolorek-kodu-2">var</span> scroll <span class="kolorek-kodu-2">=</span> <span class="kolorek-kodu-1">$(window)</span>.scrollTop<span class="kolorek-kodu-2">() </span>;
-      dh <span class="kolorek-kodu-2">=</span> <span class="kolorek-kodu-1">$(document)</span>.height<span class="kolorek-kodu-2">() </span>;
-      wh <span class="kolorek-kodu-2">=</span> <span class="kolorek-kodu-1">$(window)</span>.height<span class="kolorek-kodu-2">() </span>;
-      scrollPercent <span class="kolorek-kodu-2">=</span> <span class="kolorek-kodu-2">( </span>scroll <span class="kolorek-kodu-2">/</span> (dh <span class="kolorek-kodu-2"> - </span> wh)<span class="kolorek-kodu-2">) </span>* 100;
-      <span class="kolorek-kodu-1">$('#progressbar')</span>.css<span class="kolorek-kodu-2">( </span>'height',scrollPercent + '%'<span class="kolorek-kodu-2">) </span>;
-      <span class="kolorek-kodu-2">}</span>);
-  </code>
-</pre>
-
-<section class="u-full-width socials">
-  <div class="social-container">
-    <header>
-      <h1>Follow Me On Social Media</h1>
+  
+      </div>
+    </section>  
+    <!-- <header class="header">
+      <div class="row">
+        <div class="twelve columns">
+          <h1>Portfolio</h1>
+        </div>
+      </div>
     </header>
-    <ul class="accordion">
-      <li class="tab">
-        <div class="social facebook">
-          <a href="https://www.facebook.com/profile.php?id=100004757865043" target="_blank">Facebook</a>
-        </div>
-        <div class="content">
-          <h1>Facebook</h1>
-          <p>Follow me on Facebook to stay up to date with Traversy Media and get notified of new videos, publications, etc</p>
-        </div>
-      </li>
-      <li class="tab">
-        <div class="social twitter">
-          <a href="https://twitter.com/" target="_blank">Twitter</a>
-        </div>
-        <div class="content">
-          <h1>Twitter</h1>
-          <p>Follow me on Twitter for video and course updates, article & blog shares and more</p>
-        </div>
-      </li>
-      <li class="tab">
-        <div class="social instagram">
-          <a href="https://www.instagram.com/swietekandrzej/" target="_blank">Instagram</a>
-        </div>
-        <div class="content">
-          <h1>Instagram</h1>
-          <p>Follow me on Instragram for a more personal look into my life and work</p>
-        </div>
-      </li>
-      <li class="tab">
-        <div class="social youtube">
-          <a href="https://youtube.com/" target="_blank">Youtube</a>
-        </div>
-        <div class="content">
-          <h1>YouTube</h1>
-          <p>Follow me on YouTube for tutorials with the latest technology in webv development</p>
-        </div>
-      </li>
-      <li class="tab">
-        <div class="social linkedin">
-          <a href="https://www.linkedin.com/in/" target="_blank">LinkedIn</a>
-        </div>
-        <div class="content">
-          <h1>LinkedIn</h1>
-          <p>Connect with me on a professional level on Linkedin</p>
-        </div>
-      </li>
-      <li class="tab">
-        <div class="social github">
-          <a href="http://github.com/andrzejswietek2001" target="_blank">Github</a>
-        </div>
-        <div class="content">
-          <h1>Github</h1>
-          <p>Check out my Github for tutorial code, my personal projects and more</p>
-        </div>
-      </li>
-    </ul>
-  </div>
-</section>
 
+    <section class="main-pic"></section>
 
+    <button class="u-full-width"></button> -->
 
-  <footer class="u-full-width container clearfix">
-    <div class="contact">
-      <ul>
-        <li class="contact-name">Piotr Niewiadomski</li>
-        <li class="contact-phone">(+48) 600-700-800</li>
-        <li class="contact-email">piotrek@niewiadomski.pl</li>
-      </ul>
+    <div class="row">
+      <pre class="twelve columns">
+    <code>
+      <span class="kolorek-kodu-3">// Scroll Efect using JQuery</span>
+      <span class="kolorek-kodu-1">$(window)</span>.scroll(<span class="kolorek-kodu-2">function() {</span>
+        <span class="kolorek-kodu-2">var</span> scroll <span class="kolorek-kodu-2">=</span> <span class="kolorek-kodu-1">$(window)</span>.scrollTop<span class="kolorek-kodu-2">() </span>;
+        dh <span class="kolorek-kodu-2">=</span> <span class="kolorek-kodu-1">$(document)</span>.height<span class="kolorek-kodu-2">() </span>;
+        wh <span class="kolorek-kodu-2">=</span> <span class="kolorek-kodu-1">$(window)</span>.height<span class="kolorek-kodu-2">() </span>;
+        scrollPercent <span class="kolorek-kodu-2">=</span> <span class="kolorek-kodu-2">( </span>scroll <span class="kolorek-kodu-2">/</span> (dh <span class="kolorek-kodu-2"> - </span> wh)<span class="kolorek-kodu-2">) </span>* 100;
+        <span class="kolorek-kodu-1">$('#progressbar')</span>.css<span class="kolorek-kodu-2">( </span>'height',scrollPercent + '%'<span class="kolorek-kodu-2">) </span>;
+        <span class="kolorek-kodu-2">}</span>);
+    </code>
+      </pre>
     </div>
-    <div class="u-full-width copyright">Andrzej Świętek</div>
-    <!-- <div class="social">
-      
-      <ul>
-        <li class="social-dribbble">
-          <a href="#">Dribbble</a></li>
-        <li class="social-facebook">
-          <a href="#">Facebook</a></li>
-        <li class="social-twitter">
-          <a href="#">Twitter</a></li>
-      </ul>
-    </div> -->
-  </footer>
+
+    <section class="u-full-width socials">
+      <div class="social-container">
+        <header>
+          <h1>Follow Me On Social Media</h1>
+        </header>
+        <ul class="accordion">
+          <li class="tab">
+            <div class="social facebook">
+              <a href="https://www.facebook.com/profile.php?id=100004757865043" target="_blank">Facebook</a>
+            </div>
+            <div class="content">
+              <h1>Facebook</h1>
+              <p>
+                Follow me on Facebook to stay up to date with Traversy Media
+                and get notified of new videos, publications, etc
+              </p>
+            </div>
+          </li>
+          <li class="tab">
+            <div class="social twitter">
+              <a href="https://twitter.com/" target="_blank">Twitter</a>
+            </div>
+            <div class="content">
+              <h1>Twitter</h1>
+              <p>
+                Follow me on Twitter for video and course updates, article &
+                blog shares and more
+              </p>
+            </div>
+          </li>
+          <li class="tab">
+            <div class="social instagram">
+              <a href="https://www.instagram.com/swietekandrzej/" target="_blank">Instagram</a>
+            </div>
+            <div class="content">
+              <h1>Instagram</h1>
+              <p>
+                Follow me on Instragram for a more personal look into my life
+                and work
+              </p>
+            </div>
+          </li>
+          <li class="tab">
+            <div class="social youtube">
+              <a href="https://youtube.com/" target="_blank">Youtube</a>
+            </div>
+            <div class="content">
+              <h1>YouTube</h1>
+              <p>
+                Follow me on YouTube for tutorials with the latest technology
+                in webv development
+              </p>
+            </div>
+          </li>
+          <li class="tab">
+            <div class="social linkedin">
+              <a href="https://www.linkedin.com/in/" target="_blank">LinkedIn</a>
+            </div>
+            <div class="content">
+              <h1>LinkedIn</h1>
+              <p>Connect with me on a professional level on Linkedin</p>
+            </div>
+          </li>
+          <li class="tab">
+            <div class="social github">
+              <a href="http://github.com/andrzejswietek2001" target="_blank">Github</a>
+            </div>
+            <div class="content">
+              <h1>Github</h1>
+              <p>
+                Check out my Github for tutorial code, my personal projects
+                and more
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
-<script src="/js/scrollbar.js"></script>
+  </div> 
+<!-- KONIEC KONTENERA -->
+  <div class="row">
+    <footer class="twelve columns big-footer">
+      <div class="contact">
+        <ul class="bez-brzydkich-kropek-ktorych-nikt-nie-lubi">
+          <li class="icon contact-name">Andrzej Świętek</li>
+          <li class="icon contact-phone">(+48) 600-700-800</li>
+          <li class="icon contact-email">andrzej@swietek.pl</li>
+        </ul>
+      </div>
+    </footer>
+  
 
+  <div class="u-full-width copyright small-footer">
+    Andrzej Świętek &copy; 2020
+  </div>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.js"></script>
+  <script src="/js/scrollbar.js"></script>
 
   <!-- End Document
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
