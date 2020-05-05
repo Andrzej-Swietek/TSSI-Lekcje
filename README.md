@@ -9,7 +9,7 @@ ___
 + CSS
   1. Pure CSS
   2. MEDIA QUERIES
-  3. SCELECTON.CSS
+  3. SKELECTON.CSS
   4. Bootstrap
 + JS
   1. Vanilla.js
