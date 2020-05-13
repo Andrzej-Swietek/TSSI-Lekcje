@@ -1,4 +1,7 @@
-# Zadanie 1 - RWD
+# Zadanie 1 - RWD 
+
+[Have a Look](https://andrzejswietek2001.github.io/TSSI-Lekcje/zd-1-rwd/)
+
 ## Technologie: 
 + HTML
 + CSS (SKELETON.CSS)
