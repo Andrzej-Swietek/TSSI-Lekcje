@@ -21,7 +21,7 @@ robotics_btn.addEventListener("click", function(){
 });
 
 function showCategory(){
-    if (frontend_sec.style.display === "none") {
+    if (frontend_sec.style.display == "none") {
         frontend_sec.style.display = "block";
       } else {
         frontend_sec.style.display = "none";
