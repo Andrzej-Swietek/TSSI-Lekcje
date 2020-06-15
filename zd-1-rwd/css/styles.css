@@ -189,6 +189,15 @@ color: #beebff;
   color: white;
 }
 
+.ros{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border: solid 1.5rem rgb(44, 50, 74);
+  color: white;
+}
+
 .raspberry{
   display: flex;
   align-items: center;
