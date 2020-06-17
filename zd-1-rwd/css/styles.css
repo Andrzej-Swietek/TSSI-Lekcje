@@ -86,11 +86,17 @@ color: #beebff;
 
 
 
+
 .language {
   font-size: 5rem;
   height: 30vh;
   margin-top: 3rem;
+  transition: ease-in-out 1s;
 }
+.language:hover{
+  font-size:5.5rem;
+}
+
 
 .html{
   display: flex;
