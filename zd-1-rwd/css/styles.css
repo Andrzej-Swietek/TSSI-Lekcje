@@ -91,7 +91,7 @@ color: #beebff;
   font-size: 5rem;
   height: 30vh;
   margin-top: 3rem;
-  transition: ease-in-out 1s;
+  transition: ease-in-out 0.5s;
 }
 .language:hover{
   font-size:5.5rem;
